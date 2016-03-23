@@ -1,94 +1,94 @@
-body{
-    font: 16px 'Lato', sans-serif;
+body {
+    font: 16px "Lato", sans-serif;
     color: #bcbbbb;
 }
 
 
-p{
+p {
     word-wrap: break-word;
 }
 
 
 /* Header */
-.header-container{
+.header-container {
     margin-top: 30px;
 }
 
 
-.title{
+.title {
     font-weight: 100;
     font-size: 3em;
 }
 
 
-.tagline{
+.tagline {
     font-weight: 400;
 }
 
 
 /* Middle Section */
-.front-image{
+.front-image {
     max-height: 400px;
     background: url(../images/front.jpg) center;
 }
 
 
 /* Featured */
-.featured{
+.featured {
     margin-top: 20px;
 }
 
 
 /* Starting Project */
-.project-title{
+.project-title {
     font-size: 2em;
     color: #747704;
 }
 
 
-.project-link{
+.project-link {
     font-weight: 400;
     color: #222;
 }
 
 
-.img-project{
-        margin: 30px auto 0px;
+.img-project {
+    margin: 30px auto 0;
 }
 
 
 /* Media Queries*/
 @media screen and (max-width: 480px) {
-     .front-image{
+     .front-image {
         height: 400px;
         background: url(../images/ravindra.jpg) 50% 0% ;
     }
-    .featured{
+    .featured {
         text-align: center;
     }
 }
 
 
-@media screen and (min-width: 481px){
-    .front-image{
+@media screen and (min-width: 481px) {
+    .front-image {
         height: 400px;
         background: url(../images/front.jpg) center !important;
     }
-    .featured{
+    .featured {
         text-align: left;
     }
 }
 
 
-@media screen and (min-width: 600px) and (max-width: 767px){
-    .project-div{
+@media screen and (min-width: 600px) and (max-width: 767px) {
+    .project-div {
         width: 50%;
     }
 }
 
 
 @media screen and (max-width: 990px) {
-    .center-div{
+    .center-div {
         text-align: center;
     }
     .project-link {
